@@ -19,6 +19,7 @@ import java.util.Arrays;
 
 @Configuration
 public class MyServletConfig {
+    //springboot支持更换嵌入式的servlet容器 jetty undertow
     //注册Servlet三大组件 在springBoot中，自动注册了springMVC所需要的DisPatchServlet,拦截路径为“/”;
     @Bean
     public ServletRegistrationBean servletRegistrationBean(){
